@@ -1,0 +1,463 @@
+[
+    {
+        "name": "New York",
+        "timezone": "America/New_York"
+    },
+    {
+        "name": "London",
+        "timezone": "Europe/London"
+    },
+    {
+        "name": "Frankfurt",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "name": "Tokyo",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "timezone": "Pacific/Midway",
+        "name": "Midway Island"
+    },
+    {
+        "timezone": "US/Samoa",
+        "name": "Samoa"
+    },
+    {
+        "timezone": "US/Hawaii",
+        "name": "Hawaii"
+    },
+    {
+        "timezone": "US/Alaska",
+        "name": "Alaska"
+    },
+    {
+        "timezone": "US/Pacific",
+        "name": "Pacific Time (US Canada)"
+    },
+    {
+        "timezone": "America/Tijuana",
+        "name": "Tijuana"
+    },
+    {
+        "timezone": "US/Arizona",
+        "name": "Arizona"
+    },
+    {
+        "timezone": "US/Mountain",
+        "name": "Mountain Time (US Canada)"
+    },
+    {
+        "timezone": "America/Chihuahua",
+        "name": "Chihuahua"
+    },
+    {
+        "timezone": "America/Mazatlan",
+        "name": "Mazatlan"
+    },
+    {
+        "timezone": "America/Mexico_City",
+        "name": "Mexico City"
+    },
+    {
+        "timezone": "America/Monterrey",
+        "name": "Monterrey"
+    },
+    {
+        "timezone": "Canada/Saskatchewan",
+        "name": "Saskatchewan"
+    },
+    {
+        "timezone": "US/Central",
+        "name": "Central Time (US Canada)"
+    },
+    {
+        "timezone": "US/Eastern",
+        "name": "Eastern Time (US Canada)"
+    },
+    {
+        "timezone": "US/East-Indiana",
+        "name": "Indiana (East)"
+    },
+    {
+        "timezone": "America/Bogota",
+        "name": "Bogota"
+    },
+    {
+        "timezone": "America/Lima",
+        "name": "Lima"
+    },
+    {
+        "timezone": "America/Caracas",
+        "name": "Caracas"
+    },
+    {
+        "timezone": "Canada/Atlantic",
+        "name": "Atlantic Time (Canada)"
+    },
+    {
+        "timezone": "America/La_Paz",
+        "name": "La_Paz"
+    },
+    {
+        "timezone": "America/Santiago",
+        "name": "Santiago"
+    },
+    {
+        "timezone": "Canada/Newfoundland",
+        "name": "Newfoundland"
+    },
+    {
+        "timezone": "America/Buenos_Aires",
+        "name": "Buenos Aires"
+    },
+
+    {
+        "timezone": "Atlantic/Stanley",
+        "name": "Stanley"
+    },
+    {
+        "timezone": "Atlantic/Azores",
+        "name": "Azores"
+    },
+    {
+        "timezone": "Atlantic/Cape_Verde",
+        "name": "Cape Verde Is."
+    },
+    {
+        "timezone": "Africa/Casablanca",
+        "name": "Casablanca"
+    },
+    {
+        "timezone": "Europe/Dublin",
+        "name": "Dublin"
+    },
+    {
+        "timezone": "Europe/Lisbon",
+        "name": "Libson"
+    },
+    {
+        "timezone": "Europe/London",
+        "name": "London"
+    },
+    {
+        "timezone": "Africa/Monrovia",
+        "name": "Monrovia"
+    },
+    {
+        "timezone": "Europe/Amsterdam",
+        "name": "Amsterdam"
+    },
+    {
+        "timezone": "Europe/Belgrade",
+        "name": "Belgrade"
+    },
+    {
+        "timezone": "Europe/Berlin",
+        "name": "Berlin"
+    },
+    {
+        "timezone": "Europe/Bratislava",
+        "name": "Bratislava"
+    },
+    {
+        "timezone": "Europe/Brussels",
+        "name": "Brussels"
+    },
+    {
+        "timezone": "Europe/Budapest",
+        "name": "Budapest"
+    },
+    {
+        "timezone": "Europe/Copenhagen",
+        "name": "Copenhagen"
+    },
+    {
+        "timezone": "Europe/Ljubljana",
+        "name": "Ljubljana"
+    },
+    {
+        "timezone": "Europe/Madrid",
+        "name": "Madrid"
+    },
+    {
+        "timezone": "Europe/Paris",
+        "name": "Paris"
+    },
+    {
+        "timezone": "Europe/Prague",
+        "name": "Prague"
+    },
+    {
+        "timezone": "Europe/Rome",
+        "name": "Rome"
+    },
+    {
+        "timezone": "Europe/Sarajevo",
+        "name": "Sarajevo"
+    },
+    {
+        "timezone": "Europe/Skopje",
+        "name": "Skopje"
+    },
+    {
+        "timezone": "Europe/Stockholm",
+        "name": "Stockholm"
+    },
+    {
+        "timezone": "Europe/Vienna",
+        "name": "Vienna"
+    },
+    {
+        "timezone": "Europe/Warsaw",
+        "name": "Warsaw"
+    },
+    {
+        "timezone": "Europe/Zagreb",
+        "name": "Zagreb"
+    },
+    {
+        "timezone": "Europe/Athens",
+        "name": "Athens"
+    },
+    {
+        "timezone": "Europe/Bucharest",
+        "name": "Bucharest"
+    },
+    {
+        "timezone": "Africa/Cairo",
+        "name": "Cairo"
+    },
+    {
+        "timezone": "Africa/Harare",
+        "name": "Harere"
+    },
+    {
+        "timezone": "Europe/Helsinki",
+        "name": "Helsinki"
+    },
+    {
+        "timezone": "Europe/Istanbul",
+        "name": "Istanbul"
+    },
+    {
+        "timezone": "Asia/Jerusalem",
+        "name": "Jerusalem"
+    },
+    {
+        "timezone": "Europe/Kiev",
+        "name": "Kiev"
+    },
+    {
+        "timezone": "Europe/Minsk",
+        "name": "Minsk"
+    },
+    {
+        "timezone": "Europe/Riga",
+        "name": "Riga"
+    },
+    {
+        "timezone": "Europe/Sofia",
+        "name": "Sofia"
+    },
+    {
+        "timezone": "Europe/Tallinn",
+        "name": "Tallinn"
+    },
+    {
+        "timezone": "Europe/Vilnius",
+        "name": "Vilnius"
+    },
+    {
+        "timezone": "Asia/Baghdad",
+        "name": "Baghdad"
+    },
+    {
+        "timezone": "Asia/Kuwait",
+        "name": "Kuwait"
+    },
+    {
+        "timezone": "Africa/Nairobi",
+        "name": "Nairobi"
+    },
+    {
+        "timezone": "Asia/Riyadh",
+        "name": "Riyadh"
+    },
+    {
+        "timezone": "Asia/Tehran",
+        "name": "Tehran"
+    },
+    {
+        "timezone": "Europe/Moscow",
+        "name": "Moscow"
+    },
+    {
+        "timezone": "Asia/Baku",
+        "name": "Baku"
+    },
+    {
+        "timezone": "Europe/Volgograd",
+        "name": "Volgograd"
+    },
+    {
+        "timezone": "Asia/Muscat",
+        "name": "Muscat"
+    },
+    {
+        "timezone": "Asia/Tbilisi",
+        "name": "Tbilisi"
+    },
+    {
+        "timezone": "Asia/Yerevan",
+        "name": "Yerevan"
+    },
+    {
+        "timezone": "Asia/Kabul",
+        "name": "Kabul"
+    },
+    {
+        "timezone": "Asia/Karachi",
+        "name": "Karachi"
+    },
+    {
+        "timezone": "Asia/Tashkent",
+        "name": "Tashkent"
+    },
+    {
+        "timezone": "Asia/Kolkata",
+        "name": "Kolkata"
+    },
+    {
+        "timezone": "Asia/Kathmandu",
+        "name": "Kathmandu"
+    },
+    {
+        "timezone": "Asia/Yekaterinburg",
+        "name": "Yekaterinburg"
+    },
+    {
+        "timezone": "Asia/Almaty",
+        "name": "Almaty"
+    },
+    {
+        "timezone": "Asia/Dhaka",
+        "name": "Dhaka"
+    },
+    {
+        "timezone": "Asia/Novosibirsk",
+        "name": "Novosibirsk"
+    },
+    {
+        "timezone": "Asia/Bangkok",
+        "name": "Bangkok"
+    },
+    {
+        "timezone": "Asia/Jakarta",
+        "name": "Jakarta"
+    },
+    {
+        "timezone": "Asia/Krasnoyarsk",
+        "name": "Krasnoyarsk"
+    },
+    {
+        "timezone": "Asia/Chongqing",
+        "name": "Chongqing"
+    },
+    {
+        "timezone": "Asia/Hong_Kong",
+        "name": "Hong Kong"
+    },
+    {
+        "timezone": "Asia/Kuala_Lumpur",
+        "name": "Kuala Lumpur"
+    },
+    {
+        "timezone": "Australia/Perth",
+        "name": "Perth"
+    },
+    {
+        "timezone": "Asia/Singapore",
+        "name": "Singapore"
+    },
+    {
+        "timezone": "Asia/Taipei",
+        "name": "Taipei"
+    },
+    {
+        "timezone": "Asia/Ulaanbaatar",
+        "name": "Ulaan Bataar"
+    },
+    {
+        "timezone": "Asia/Urumqi",
+        "name": "Urumqi"
+    },
+    {
+        "timezone": "Asia/Irkutsk",
+        "name": "Irkutsk"
+    },
+    {
+        "timezone": "Asia/Seoul",
+        "name": "Seoul"
+    },
+    {
+        "timezone": "Asia/Tokyo",
+        "name": "Tokyo"
+    },
+    {
+        "timezone": "Australia/Adelaide",
+        "name": "Adelaide"
+    },
+    {
+        "timezone": "Australia/Darwin",
+        "name": "Darwin"
+    },
+    {
+        "timezone": "Asia/Yakutsk",
+        "name": "Yakutsk"
+    },
+    {
+        "timezone": "Australia/Brisbane",
+        "name": "Brisbane"
+    },
+    {
+        "timezone": "Australia/Canberra",
+        "name": "Canberra"
+    },
+    {
+        "timezone": "Pacific/Guam",
+        "name": "Guam"
+    },
+    {
+        "timezone": "Australia/Hobart",
+        "name": "Hobart"
+    },
+    {
+        "timezone": "Australia/Melbourne",
+        "name": "Melbourne"
+    },
+    {
+        "timezone": "Pacific/Port_Moresby",
+        "name": "Port Moresby"
+    },
+    {
+        "timezone": "Australia/Sydney",
+        "name": "Sydney"
+    },
+    {
+        "timezone": "Asia/Vladivostok",
+        "name": "Vladivostok"
+    },
+    {
+        "timezone": "Asia/Magadan",
+        "name": "Magadan"
+    },
+    {
+        "timezone": "Pacific/Auckland",
+        "name": "Auckland"
+    },
+    {
+        "timezone": "Pacific/Fiji",
+        "name": "Fiji"
+    }
+]
