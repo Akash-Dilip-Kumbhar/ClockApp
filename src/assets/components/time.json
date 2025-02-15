@@ -4,6 +4,10 @@
         "timezone": "America/New_York"
     },
     {
+        "name": "New York",
+        "timezone": "America/New_York"
+    },
+    {
         "name": "London",
         "timezone": "Europe/London"
     },
