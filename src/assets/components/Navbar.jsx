@@ -16,16 +16,16 @@ export default function Navbar() {
     <div className="container" id="navbarNav">
       <ul className="navbar-nav flex-row justify-content-around">
         <li className="nav-item">
-         <Link className="nav-link active" aria-current="page" to="/Worldclock">Clock</Link>
+         <Link className="nav-link active" aria-current="page" to="/ClockApp/Worldclock">Clock</Link>
         </li>
         <li className="nav-item">
-         <Link className="nav-link" to="/Alarmclock">Alarm</Link>
+         <Link className="nav-link" to="/ClockApp/Alarmclock">Alarm</Link>
         </li>
         <li className="nav-item">
-         <Link className="nav-link" to="/Stopwatch">Stopwatch</Link>
+         <Link className="nav-link" to="/ClockApp/Stopwatch">Stopwatch</Link>
         </li>
         <li className="nav-item">
-         <Link className="nav-link" to="/Timer">Timer</Link>
+         <Link className="nav-link" to="/ClockApp/Timer">Timer</Link>
         </li>
       </ul>
     </div>

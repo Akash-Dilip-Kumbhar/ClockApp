@@ -13,10 +13,10 @@ function Clock() {
         <Navbar/>
       <div>
         <Routes>
-          <Route path="/Worldclock" element={<Worldclock />} />
-          <Route path="/Alarmclock" element={<Alarmclock />} />
-          <Route path="/Stopwatch" element={<Stopwatch />} />
-          <Route path="/Timer" element={<Timer />} />
+          <Route path="/ClockApp/Worldclock" element={<Worldclock />} />
+          <Route path="/ClockApp/Alarmclock" element={<Alarmclock />} />
+          <Route path="/ClockApp/Stopwatch" element={<Stopwatch />} />
+          <Route path="/ClockApp/Timer" element={<Timer />} />
         </Routes>
       </div>
     </Router>
