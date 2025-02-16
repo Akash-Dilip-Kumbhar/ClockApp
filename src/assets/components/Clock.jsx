@@ -1,25 +1,28 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from './Navbar';
-import Worldclock from './Worldclock';
-import Alarmclock from './Alarmclock';
-import Stopwatch from './Stopwatch';
-import Timer from './Timer'; 
+import Navbar from "./Navbar";
+import Worldclock from "./Worldclock";
+import Alarmclock from "./Alarmclock";
+import Stopwatch from "./Stopwatch";
+import Timer from "./Timer";
 
 function Clock() {
   return (
-    <Router>
-        <Navbar/>
-      <div>
-        <Routes>
-          <Route path="/ClockApp/Worldclock" element={<Worldclock />} />
-          <Route path="/ClockApp/Alarmclock" element={<Alarmclock />} />
-          <Route path="/ClockApp/Stopwatch" element={<Stopwatch />} />
-          <Route path="/ClockApp/Timer" element={<Timer />} />
-        </Routes>
-      </div>
-    </Router>
-  )
+    <>
+      {
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/Worldclock" element={<Worldclock />}></Route>
+            <Route path="/" element={<Worldclock />}></Route>
+            <Route path="/Alarmclock" element={<Alarmclock />}></Route>
+            <Route path="/Stopwatch" element={<Stopwatch />}></Route>
+            <Route path="/Timer" element={<Timer />}></Route>
+          </Routes>
+        </BrowserRouter>
+      }
+    </>
+  );
 }
-export default Clock
+export default Clock;
