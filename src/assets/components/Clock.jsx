@@ -14,10 +14,10 @@ function Clock() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-          <Route path="/ClockApp/" element={<Worldclock />}></Route>
+          <Route path="/ClockApp" element={<Worldclock />}></Route>
           <Route path="/" element={<Worldclock />}></Route>
             <Route path="/Worldclock" element={<Worldclock />}></Route>
-            <Route path="/Alarmclock" element={<Alarmclock />}></Route>
+            <Route path='/Alarmclock' element={<Alarmclock />}></Route>
             <Route path="/Stopwatch" element={<Stopwatch />}></Route>
             <Route path="/Timer" element={<Timer />}></Route>
           </Routes>

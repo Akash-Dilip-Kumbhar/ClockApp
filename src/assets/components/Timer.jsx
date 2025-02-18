@@ -2,13 +2,15 @@ import React, { useEffect, useRef, useState } from "react";
 
 function Timer() {
   const [time, setTime] = useState(0);
+  const [userActive, setuserActive] = useState(false);
   const [isActive, setActive] = useState(false);
   const [isPause, setIsPause] = useState(false);
-
+  
   const intervalRef = useRef(null);
 
   const handleInput = (e) => {
     setTime(parseInt(e.target.value * 60));
+    setuserActive(true);
   };
 
   const formatTime = () => {
@@ -27,7 +29,8 @@ function Timer() {
       intervalRef.current = setInterval(() => {
         setTime((prev) => prev - 1);
       }, 1000);
-    } else if (time === 0) {
+    } else if (time === 0 && userActive) {
+      playAlarm();
       clearInterval(intervalRef.current);
       setActive(false);
       alert("time is up");
@@ -46,12 +49,26 @@ function Timer() {
     setTime(0);
   };
 
+  const playAlarm = () => {
+    console.log("play");
+    const audio = new Audio('https://vclock.com/sound/musicbox.mp3');
+    audio.play();
+    setAlarmSet(false);
+  };
+
   return (
     <div className="countdown-timer">
       <h1>Timer</h1>
       <div className="timer-display">
-        <input type="number" placeholder="Enter time" onChange={handleInput} />
-        <div>{formatTime()}</div>
+        <input type="number" placeholder="Enter time in Min" onChange={handleInput} />
+
+        <div className="mainClockBx">
+          <div className="mainClockRing">
+            <div className="mainClock">
+              <div className="time">{formatTime()}</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="timer-controls">
